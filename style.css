@@ -43,19 +43,27 @@ p {
 button {
     font-size: 24px;
     border-radius: 16px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
 }
 
-button black-botton{
+
+button:hover {
+    opacity: 0.8;
+}
+
+.black-button{
     color:#303136;
 
 }
 
-.blue-botton {
+.blue-button {
     background-color:rgb(24, 94, 160);
 }
 
 .equal-button {
-    background-color: rgb(6, 129, 129);
+    background-color: rgb(27, 221, 221);
 }
 
 .gray-button {
